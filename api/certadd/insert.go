@@ -55,7 +55,7 @@ type AddRequest struct {
 	Status       string         `json:"status"`
 	Reason       int            `json:"reason"`
 	Expiry       time.Time      `json:"expiry"`
-	RevokedAt    time.Time      `json:"revoked_at"`
+	RevokedAt    *time.Time      `json:"revoked_at"`
 	PEM          string         `json:"pem"`
 	IssuedAt     *time.Time     `json:"issued_at"`
 	NotBefore    *time.Time     `json:"not_before"`
