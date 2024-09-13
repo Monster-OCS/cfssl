@@ -1,4 +1,4 @@
-module github.com/Monster-OCS/cfssl
+module github.com/cloudflare/cfssl
 
 go 1.18
 
